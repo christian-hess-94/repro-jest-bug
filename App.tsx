@@ -7,7 +7,7 @@ import Card from "./src/components/card";
 interface AppProps {}
 
 const App: React.FunctionComponent<AppProps> = () => {
-  // const Stack = createStackNavigator();
+  const Stack = createStackNavigator();
   return (
     <NavigationContainer>
       <Text>OIE</Text>
